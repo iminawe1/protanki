@@ -17,6 +17,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25);
     color: #fff; /* Set text color to white */
+    margin-right: 10px;
 }
 
 .logo {
@@ -36,18 +37,11 @@ div {
     padding: 20px;
 }
 
-a {
-    color: #68a527;
-    font-family: sans-serif;
-    font-size: 12px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: color 0.3s ease;
-    border-radius: 3px;
-    width: fit-content ;
-}
-
-a:hover { 
-    color: white;
-    text-decoration: underline;
+#navbar_links1,
+#navbar_links2,
+#navbar_links3,
+.navbar_links { 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }

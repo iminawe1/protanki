@@ -1,0 +1,23 @@
+
+
+body { 
+    padding-left: 114px;
+    padding-top: 80px;
+    height: fit-content;
+}
+
+a {
+    color: #68a527;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    border-radius: 3px;
+    width: fit-content ;
+}
+
+a:hover { 
+    color: white;
+    text-decoration: underline;
+}
