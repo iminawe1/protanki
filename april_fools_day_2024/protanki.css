@@ -4,6 +4,7 @@ body {
     padding-left: 114px;
     padding-top: 80px;
     height: fit-content;
+    padding-right: 30px;
 }
 
 a {
@@ -20,4 +21,34 @@ a {
 a:hover { 
     color: white;
     text-decoration: underline;
+}
+
+
+body { 
+    background-image: url(/april_fools_day_2024/resources/Summer_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* border: 0px;
+    padding: 0px;
+    padding: 0px; */
+}
+
+@media (max-width: 1024px) { 
+    h1 {
+        font-size: 1.8rem;
+    }
+    body { 
+        padding-left: 80px;
+    }
+}
+
+@media (max-width:768px) { 
+    h1 { 
+        font-size: 1.4rem;
+    }
+    body {
+        padding-left: 40px;
+    }
 }
