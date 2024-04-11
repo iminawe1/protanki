@@ -7,8 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> April Fool's Day 2024 - ProTanki Online Wiki</title>
         <link href="protanki.css" type="text/css" rel="stylesheet">
+        <script src="collapse-tos.js"></script>
 
         <style> 
+
             *, ::before, ::after {box-sizing: inherit;}
 
             html { 
@@ -28,11 +30,11 @@
                 <img src="/april_fools_day_2024/resources/Logo_small.png" width="100px" height="auto">
             </div>
             <div class="navbar-content">
-                <div id="navbar_links1" class="navbar_links">
+                <div id="navbar_links1" class="navbar_links default">
                     <a href="https://pro-tanki.com"> Play ProTanki </a>
                     <a href="https://pro-tanki.com/en/rules"> Game Rules </a>
                 </div>
-                <div id="navbar_links2" class="navbar_links">
+                <div id="navbar_links2" class="navbar_links default">
                     <p class="wiki-title"> ProTanki Wiki </p>
                     <style> 
                     .wiki-title { 
@@ -51,7 +53,7 @@
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQ93rH3BY83BAIpR9TbADuT3UpaKTS32r2heM8WVNCAzT9lw/viewform"> Report an Error </a>
 
                 </div>
-                <div id="navbar_links3" class="navbar_links">
+                <div id="navbar_links3" class="navbar_links default">
                     <p class="navigation"> Navigation </p>
                     <style> 
                     .navigation { 
@@ -71,7 +73,172 @@
 
         <div class="main">
                 <h1> April Fool's Day 2024</h1>
-                <h4> Event Color </h4>
+                <p class="contents button"><strong>Contents [<a id="hideBtn">hide</a>]</strong></p>
+                <div id="toc" style="margin-bottom: 30px;">
+                    <div id="level1">
+                        <ul class="lvl1">
+                            <li>
+                                <a href="#April">
+                                    <span class="tocnumber"> 1 </span>
+                                    <span class="toctext"> April Fool's Day </span>
+                                </a>
+                                <ul class="lvl2">
+                                    <li>
+                                        <a href="#BattleCity">
+                                            <span class="tocnumber"> 1.1 </span>
+                                            <span class="toctext"> Battle City </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#supagold">
+                                            <span class="tocnumber"> 1.2 </span>
+                                            <span class="toctext"> Super Gold </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#HolidayPaint">
+                                            <span class="tocnumber"> 1.3 </span>
+                                            <span class="toctext"> Holiday Paint </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#SpecialGifts">
+                                            <span class="tocnumber"> 1.4 </span>
+                                            <span class="toctext"> Special Gifts </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div id="toc">
+                    <ul>
+                        <li class="toclevel-1" style="font-size: 16px;">
+                            <a href="April" style="font-size: 16px;"><span class="tocnumbber">1</span>
+                                <span class="toctext"> April Fool's Day</span>
+                            </a>
+                            <ul>
+                                <li class="toclevel-2" style="margin-top:">
+                                    <a href="#BattleCity">
+                                        <span class="tocnumbber">1.1</span>
+                                        <span class="toctext"> Battle City</span>
+                                    </a>
+                                </li>
+                                <li class="toclevel-2">
+                                    <a href="#supagold">
+                                        <span class="tocnumbber">1.2</span>
+                                        <span class="toctext"> Super Golds </span>
+                                    </a>
+                                </li>
+                                <li class="toclevel-2">
+                                    <a href="#HolidayPaint">
+                                        <span class="tocnumbber">1.3</span>
+                                        <span class="toctext"> Holiday Paint </span>
+                                    </a>
+                                </li> 
+                                <li class="toclevel-2">
+                                    <a href="#SpecialGifts">
+                                        <span class="tocnumbber">1.4</span>
+                                        <span class="toctext"> Special Gifts </span>
+                                    </a>
+                                </li>
+
+                                </li>
+                                
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> -->
+                    <article id="April" class="artsy">
+                        April Fool's Day is an annually recurring event, in 2024, April Fool's Day 
+                        was held among Tankers on 1.4.2024 and for an entire week, players could enjoy
+                        a new map called the Battle City and catch Super Golds to earn plenty of
+                        rewards or get bombed?? 
+                    </article>
+                <h2 id="BattleCity"> Battle City Map </h2>
+                    <article class="artsy">
+                        During this event, a new map called Battle City was introduced with unique
+                        features such as ponds or bushes where players could sneak on their foes
+                    </article>
+                <p class="bc-forward default"> <em> See also:</em><a href="https://wiki.pro-tanki.com/en/Battle_City"> Battle City </a> </p>
+                <div class="BC1-jpg">
+                <img alt="BattleCity.jpg" src="/april_fools_day_2024/resources/BC1.jpg" desync="sync" width="100%" height="auto">
+                </div>
+                <h3 id="supagold"> Super Gold </h3>
+                <article class="artsy"> 
+                        This anomalously looking box is no ordinary gold box, it might as well kill you !
+                        <br>
+                        It has a random chance of rewarding the player who catches it with a range of prizes: 
+                </article>
+                   <table id="supergold-drops" class="wikitable" style="max-width: 320px;">
+                    <style> 
+                        #supergold-drops td { 
+                            height: fit-content;
+                            padding: 3px;
+                        }
+                    </style>
+                        <tbody>
+                            <tr>
+                                <th style="width: 20%;"> Crystals </th>
+                                <th style="width: 20%;"> Premium </th>
+                            </tr>
+                            <tr>
+                            <td> 
+                                1 000
+                                <img alt="Crystmini.png" src="/april_fools_day_2024/resources/Crysmini.png" decoding="async" width="9"  height="9">
+                            </td>
+                            <td class="premium">
+                                <style>
+                                    .premium {
+                                        gap: 8px;
+                                    }
+                                </style>
+                                86 400 seconds
+                                <img alt="premium_rank.png" src="/april_fools_day_2024/resources/Premium_Rank.png" decoding="async" width="25" height="auto">
+                            </td>
+                        </tr>
+                        <tr> 
+                            <td>
+                                5 000 
+                                <img alt="Crystmini.png" src="/april_fools_day_2024/resources/Crysmini.png" decoding="async" width="9"  height="9">
+                            </td>
+                            <td>
+                                48 hours
+                                <img alt="premium_rank.png" src="/april_fools_day_2024/resources/Premium_Rank.png" decoding="async" width="25" height="auto" style="margin-top: px;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                10 000
+                                <img alt="Crystmini.png" src="/april_fools_day_2024/resources/Crysmini.png" decoding="async" width="9"  height="9">
+                            </td>
+                            <td> 
+                                3 days
+                                <img alt="premium_rank.png" src="/april_fools_day_2024/resources/Premium_Rank.png" decoding="async" width="25" height="auto" style="margin-top: px;">
+                            </td>
+                        </tr>
+                        <tr> 
+                            <td>
+                                50 000
+                                <img alt="Crystmini.png" src="/april_fools_day_2024/resources/Crysmini.png" decoding="async" width="9"  height="9">
+                            </td>
+                            <td>
+                                -
+                            </td>
+                        </tr>
+                        </tbody>
+                   </table>
+                   <article class="artsy">
+                        It might as well happen, that you catch a hacked Super Gold that drops 2 normal gold boxes or that the super gold wasn't a gold box at all and you kill all nearby enemies !
+                   </article>
+
+                    <div class="supergold-jpg">
+                        <img id="gold" alt="SUPERGOLD.jpg" src="/april_fools_day_2024/resources/SUPERGOLD.jpg" data-author="demyan21" width="100%" height="auto" style="margin-top: 20px;">
+                    </div>
+                <h4 id="HolidayPaint"> Holiday Paint </h4>
+            <p class="bc-forward default"> <em> See also:</em><a href="https://wiki.pro-tanki.com/en/Holiday_paints"> Holiday Paints </a> </p>
             <table id="april_fools_color" class="wikitable" style="width: 100%;" text-align="center">
                 <tbody> 
                     <tr>
@@ -96,7 +263,8 @@
                     </tr>
                 </tbody>
             </table>
-            <h5> Special gifts </h5>
+            <h5 id="SpecialGifts"> Special gifts </h5>
+            <p class="bc-forward default"> <em> See also:</em><a href="https://wiki.pro-tanki.com/en/Gifts"> Gifts </a> </p>
             <table id="tank_bc" class="wikitable" style="width: 100%; text-align: center;">
                 <tbody>
                     <tr> 

@@ -7,7 +7,7 @@ body {
     padding-right: 30px;
 }
 
-a {
+.default a {
     color: #68a527;
     font-family: sans-serif;
     font-size: 12px;
@@ -33,24 +33,6 @@ body {
     /* border: 0px;
     padding: 0px;
     padding: 0px; */
-}
-
-@media (max-width: 1024px) { 
-    h1 {
-        font-size: 1.8rem;
-    }
-    body { 
-        padding-left: 80px;
-    }
-}
-
-@media (max-width:768px) { 
-    h1 { 
-        font-size: 1.4rem;
-    }
-    body {
-        padding-left: 40px;
-    }
 }
 
 tbody {
@@ -119,4 +101,17 @@ td {
     unicode-bidi: isolate;
     text-align: center;
     padding: 10px;
+}
+
+html { 
+    margin-bottom: 30px;
+}
+
+.artsy { 
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    display: block;
+    unicode-bidi: isolate;
+    line-height: 1.6;
+    color: #CCC;
 }
