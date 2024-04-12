@@ -23,18 +23,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
-body { 
-    background-image: url(./resources/Summer_wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    /* border: 0px;
-    padding: 0px;
-    padding: 0px; */
-}
-
 tbody {
     display: table-row-group;
     vertical-align: middle;
