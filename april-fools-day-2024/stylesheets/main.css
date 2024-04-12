@@ -89,34 +89,6 @@ h5 {
     margin-bottom: -2px;
 }
 
-/* .tocnumber, .toctext {
-    display: table-cell;
-    text-decoration: inherit;
-}
-
-#toc {
-    ul {
-    list-style: none;
-    }
-}
-
-ul .tocnumber {
-    padding-left: 0;
-    padding-right: 0.5em;
-    color: #fff;
-}
-
-ul .toclevel-1 {
-    margin-left: 0px;
-}
-
-ul .toclevel-2 {
-    margin-left: 70px;
-    font-size: 16px;
-}
-
-*/
-
 .contents { 
     margin-left: 200px;
     font-family: Arial, sans-serif;
